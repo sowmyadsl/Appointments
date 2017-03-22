@@ -6,11 +6,13 @@ $(function() {
     var startInput = $("input#start").val();
     var endInput = $("input#end").val();
 
-    $("#output").text(nameInput);
-    $("#output").text(descriptionInput);
-    $("#output").text(dateInput);
-    $("#output").text(startInput);
-    $("#output").text(endInput);
-
+    $("#text1").text(nameInput);
+    $("#text2").text(descriptionInput);
+    $("#text3").text(dateInput);
+    $("#text4").text(startInput);
+    $("#text5").text(endInput);
+    $("#initially-showing").hide();
+    $("#initially-hidden").show();
+    event.preventDefault();
   });
 });
